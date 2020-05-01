@@ -1,36 +1,11 @@
 @font-face {
-    font-family: 'portishead_dummyregular';
-    src: url(..//fonts/portd___-webfont.woff2) format('woff2'),
-         url(..//fonts/portd___-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "portishead_dummyregular";
+  src: url(..//fonts/portd___-webfont.woff2) format("woff2"),
+    url(..//fonts/portd___-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  .header{
-      background-color: rgba(0, 0, 0, 0.5);
-  }
-  .site-name{
-      font-family: portishead_dummyregular;
-      text-align: center;
-      color: white;
-      font-size: 5em;
-  }
 
-  .fa-1x {
-    font-size: 1.5rem;
-    }
-    .navbar-toggler.toggler-example {
-    cursor: pointer;
-    }
-    .dark-blue-text {
-    color: #0A38F5;
-    }
-    .dark-pink-text {
-    color: #AC003A;
-    }
-    .dark-amber-text {
-    color: #ff6f00;
-    }
-    .dark-teal-text {
-    color: #004d40;
-    }
+
+}
