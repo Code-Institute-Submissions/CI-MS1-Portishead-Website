@@ -1,21 +1,27 @@
 @font-face {
-  font-family: "portishead_dummyregular";
-  src: url(..//fonts/portd___-webfont.woff2) format("woff2"),
-    url(..//fonts/portd___-webfont.woff) format("woff");
-  font-weight: normal;
+  font-family: 'Compacta Bd BT';
+  src: url(..///fonts/CompactaBT-Bold.woff2) format('woff2'),
+      url(..//fonts/CompactaBT-Bold.woff) format('woff');
+  font-weight: bold;
   font-style: normal;
 }
 
+:root{
+  --color-portishead-third-01 :  #317088;
+  --color-portishead-third-02: #dde3e6;
+  --color-portishead-third-03: #8ab4bd;
+}
 
+/*----------------------------------------------------------------HEADER*/
 /*----------------------------------------------------------------MENU*/
 
 .menu {
-  background-color: #317088;
+  background-color:var(--color-portishead-third-01);
   box-shadow: 0px 20px 15px 0px rgba(49, 112, 136, 0.2);
 }
 
 .hamburger-button-bar {
-  background-color: #dde3e6;
+  background-color:var(--color-portishead-third-02);
   width: 70%;
   height: 3px;
   margin: 5px auto;
@@ -27,29 +33,130 @@
   height: 50px;
   border-radius: 50%;
   background-color: transparent;
-  border-color: #dde3e6;
+  border-color: var(--color-portishead-third-02);
   border-style: solid;
   padding: 0;
   border-width: 3px;
 }
 
 .site-name {
-  font-family: portishead_dummyregular;
-  color: #dde3e6;
+  font-family: Compacta Bd BT;
+  color: var(--color-portishead-third-02);
   font-size: 3em;
   text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.p-logo{
+  width: 3em;
+  height: 100%;
+}
+
+.p1{
+  fill: var(--color-portishead-third-01);
+  stroke: var(--color-portishead-third-02);
+  transition: all 0.5s ease-in-out;
+}
+
+.p2{
+  fill: var(--color-portishead-third-02);
+  transition: all 0.5s ease-in-out;
+}
+
+.p3{
+  fill: var(--color-portishead-third-01);
+  transition: all 0.5s ease-in-out;
+}
+
+.p-logo:hover{
+  cursor: pointer;
+}
+.p-logo:hover .p1{
+  fill: var(--color-portishead-third-02);
+  stroke: var(--color-portishead-third-01); 
+}
+.p-logo:hover .p3{
+  fill: var(--color-portishead-third-02);
+}
+.p-logo:hover .p2{
+  fill: var(--color-portishead-third-01);
 }
 
 .site-name:hover{
   text-decoration: none;
-  color: #8ab4bd;
+  color: var(--color-portishead-third-03);
 }
 
 .menu-item a {
-  color: #dde3e6;
+  color:var(--color-portishead-third-02);
   font-size: 30px;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-item a:hover {
-  color: #8ab4bd;
+  color:var(--color-portishead-third-03);
+}
+
+
+/*----------------------------------------------------------------FOOTER*/
+
+.footer{
+  background-color: var(--color-portishead-third-01);
+  bottom: 0;
+  position: fixed;
+  box-shadow: 0px -20px 15px 0px rgba(49, 112, 136, 0.2);
+}
+
+.social-links{
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+}
+.social-icon i{
+  color: var(--color-portishead-third-02);
+  font-size: 1.5em;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon i:hover{
+  color: var(--color-portishead-third-03);
+}
+
+.record-label{
+  text-align: center;
+}
+
+.island-logo{
+  margin: 10px 0;
+}
+.island-logo svg{
+  width: 3em;
+  height: 100%;
+}
+
+.island-logo svg path {
+  fill: var(--color-portishead-third-02);
+  transition: all 0.3s ease-in-out;
+}
+
+.island-logo svg path:hover{
+  fill: var(--color-portishead-third-03);
+}
+
+
+.copyright{
+  text-align: center;
+  color: #dde3e6;
+  font-size: 1em;
+}
+
+.copyright a{
+  text-align: center;
+  color: #dde3e6;
+  font-size: 1em;
+}
+
+/*----------------------------------------------------------------BOOTSTRAP OVERRIDES*/
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
 }
