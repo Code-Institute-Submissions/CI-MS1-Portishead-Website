@@ -7,5 +7,49 @@
 }
 
 
+/*----------------------------------------------------------------MENU*/
 
+.menu {
+  background-color: #317088;
+  box-shadow: 0px 20px 15px 0px rgba(49, 112, 136, 0.2);
+}
+
+.hamburger-button-bar {
+  background-color: #dde3e6;
+  width: 70%;
+  height: 3px;
+  margin: 5px auto;
+  border-radius: 2px;
+}
+
+.hamburger-button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border-color: #dde3e6;
+  border-style: solid;
+  padding: 0;
+  border-width: 3px;
+}
+
+.site-name {
+  font-family: portishead_dummyregular;
+  color: #dde3e6;
+  font-size: 3em;
+  text-align: center;
+}
+
+.site-name:hover{
+  text-decoration: none;
+  color: #8ab4bd;
+}
+
+.menu-item a {
+  color: #dde3e6;
+  font-size: 30px;
+}
+
+.menu-item a:hover {
+  color: #8ab4bd;
 }
