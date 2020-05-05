@@ -296,6 +296,32 @@ a.nav-link.active-page {
   margin: 2px auto;
 }
 
+.tour-header{
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 49%, rgba(0, 0, 0, 1) 100%), url(..//media/images/hero.jpg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour-main{
+  background-color: #000;
+}
+.tour-poster{
+  padding-top: 45%;
+  width: 80%;
+  background-color: red;
+  margin: 20px auto;
+  position: relative;
+}
+
+.tour-date{
+  width: 90px;
+  height: 90px;
+  background-color: blue;
+  box-shadow: 1px 1px 3px #000;
+  position: absolute;
+  transform: translate(-30%, -70%);
+}
+
 .music-releases{
   margin-top: 200px;
   margin-bottom: 200px;
