@@ -12,6 +12,14 @@
   --color-portishead-third-03: #8ab4bd;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
 /*----------------------------------------------------------------HEADER*/
 /*----------------------------------------------------------------MENU*/
 
@@ -280,9 +288,29 @@ a.nav-link.active-page {
   font-size: 1em;
 }
 
+
+.album{
+  padding-top: 99%;
+  width: 99%;
+  background-color: red;
+  margin: 2px auto;
+}
+
+.music-releases{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
 /*----------------------------------------------------------------BOOTSTRAP OVERRIDES*/
 .list-inline-item:not(:last-child) {
   margin-right: 0;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.row{
+  padding: 0;
 }
 
 @media only screen and (max-width: 576px) {
