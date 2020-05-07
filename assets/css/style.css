@@ -26,6 +26,7 @@ body {
 .menu {
   background-color: var(--color-portishead-third-01);
   /*box-shadow: 0px 20px 15px 0px rgba(49, 112, 136, 0.2);*/
+  box-shadow: 1px 1px 3px #000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -242,7 +243,7 @@ a.nav-link.active-page {
 
 .footer {
   background-color: var(--color-portishead-third-01);
-  margin-top: 5rem;
+  box-shadow: -1px -1px 3px #000;
   /*box-shadow: 0px -20px 15px 0px rgba(49, 112, 136, 0.2);*/
 }
 
@@ -312,7 +313,7 @@ a.nav-link.active-page {
 
 .header-image[data-page="Tour"]
 {
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 49%, rgba(0, 0, 0, 1) 100%), url(..//media/images/hero.jpg);
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/tour/tour-header.jpg);
 }
 
 .footer-image{
@@ -320,18 +321,17 @@ a.nav-link.active-page {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  margin-bottom: 3rem;
   background-position: 50% 26%;
 }
 
 .footer-image[data-page="Tour"]
 {
-  background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 49%, rgba(0, 0, 0, 1) 100%), url(..//media/images/hero.jpg);
+  background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/hero.jpg);
 }
 
 
 .tour-main{
-  background-color: #000;
+  background-color: var(--color-portishead-third-01);
 }
 .tour-poster{
   padding-top: 45%;
@@ -339,15 +339,82 @@ a.nav-link.active-page {
   background-color: red;
   margin: 20px auto;
   position: relative;
+  background-size: cover;
+  background-position: 50% 26%;
+  border: solid 2px var(--color-portishead-third-03);
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.tour-poster[data-venue="london"]{
+  background-image: url(..//media/images/tour/londonO2.jpg);
+}
+
+.tour-poster[data-venue="paris"]{
+  background-image: url(..//media/images/tour/parisaccor.jpg);
+}
+
+.tour-poster[data-venue="berlin"]{
+  background-image: url(..//media/images/tour/berlin.jpg);
 }
 
 .tour-date{
-  width: 90px;
-  height: 90px;
-  background-color: blue;
+  width: 20%;
+  height: 35%;
+  background-color: var(--color-portishead-third-02);
   box-shadow: 1px 1px 3px #000;
   position: absolute;
   transform: translate(-30%, -70%);
+  text-align: center;
+  font-weight: 700;
+  background-image: linear-gradient(to right,var(--color-portishead-third-01),var(--color-portishead-third-03));
+  color: var(--color-portishead-third-02);
+  border-radius: 5px;
+}
+
+.venue{
+  width: 50%;
+  position: absolute;
+  top: 0;
+  padding-left: 3%;
+}
+
+.venue-name{
+  position: absolute;
+  margin: 0 auto;
+}
+
+.venue-name text{
+  fill: var(--color-portishead-third-02);
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+
+.tour-date-venue{
+  display: block;
+  width: 100%;
+  height: 25%;
+}
+
+.tour-date-date{
+  display: block;
+  width: 100%;
+  height: 70%;
+}
+
+.tour-date-date text{
+  fill: var(--color-portishead-third-02);
+}
+
+.tour-date-month{
+  display: block;
+  width: 75%;
+  height: 30%;
+}
+
+.tour-date-month text{
+  fill: var(--color-portishead-third-02);
 }
 
 
