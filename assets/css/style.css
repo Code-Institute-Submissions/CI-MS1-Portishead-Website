@@ -298,8 +298,60 @@ a.nav-link.active-page {
 .album{
   padding-top: 99%;
   width: 99%;
-  background-color: red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   margin: 2px auto;
+  border: solid 2px var(--color-portishead-third-03);
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.album[data-album="dummy"]{
+  background-image: url(..//media/images/Music/dummy.png);
+}
+.album[data-album="self-titled"]{
+  background-image: url(..//media/images/Music/self-titled.jpg);
+}
+.album[data-album="third"]{
+  background-image: url(..//media/images/Music/third.jpg);
+}
+
+.album[data-album="roseland"]{
+  background-image: url(..//media/images/Music/roseland.jpg);
+}
+
+.album[data-album="chase-the-tear"]{
+  background-image: url(..//media/images/Music/chase-the-tear.jpg);
+}
+
+.album[data-album="magic-doors"]{
+  background-image: url(..//media/images/Music/magic-doors.jpg);
+}
+.album[data-album="the-rip"]{
+  background-image: url(..//media/images/Music/the-rip.png);
+}
+.album[data-album="machine-gun"]{
+  background-image: url(..//media/images/Music/machine-gun.jpg);
+}
+.album[data-album="only-you"]{
+  background-image: url(..//media/images/Music/only-you.jpg);
+}
+.album[data-album="over"]{
+  background-image: url(..//media/images/Music/over.jpg);
+}
+
+.album[data-album="all-mine"]{
+  background-image: url(..//media/images/Music/all-mine.jpg);
+}
+.album[data-album="glory-box"]{
+  background-image: url(..//media/images/Music/glory-box.jpg);
+}
+.album[data-album="sour-times"]{
+  background-image: url(..//media/images/Music/sour-times.jpg);
+}
+.album[data-album="numb"]{
+  background-image: url(..//media/images/Music/numb.jpg);
 }
 
 .header-image{
@@ -309,11 +361,29 @@ a.nav-link.active-page {
   max-width: 100%;
   margin-top: 3rem;
   background-position: 50% 26%;
+  position: relative;
 }
+
+.header-image-title{
+  position: absolute;
+  color: var(--color-portishead-third-02);
+  font-weight: 500;
+  font-size: 8vh;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .header-image[data-page="Tour"]
 {
   background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/tour/tour-header.jpg);
+}
+
+.header-image[data-page="music"]
+{
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images//Music/music-header.jpg);
 }
 
 .footer-image{
@@ -321,22 +391,27 @@ a.nav-link.active-page {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  background-position: 50% 26%;
+  background-position: 50% 100%;
 }
 
 .footer-image[data-page="Tour"]
 {
-  background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/hero.jpg);
+  background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/tour/tour-footer.jpg);
+}
+.footer-image[data-page="music"]
+{
+  background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/Music/music-footer.jpg);
 }
 
-
+.music-releases{
+  background-color: var(--color-portishead-third-01);
+}
 .tour-main{
   background-color: var(--color-portishead-third-01);
 }
 .tour-poster{
   padding-top: 45%;
-  width: 80%;
-  background-color: red;
+  width: 90%;
   margin: 20px auto;
   position: relative;
   background-size: cover;
@@ -357,6 +432,17 @@ a.nav-link.active-page {
 .tour-poster[data-venue="berlin"]{
   background-image: url(..//media/images/tour/berlin.jpg);
 }
+
+.tour-poster[data-venue="dublin"]{
+  background-image: url(..//media/images/tour/dublin.jpg);
+}
+.tour-poster[data-venue="barcelona"]{
+  background-image: url(..//media/images/tour/barcelona.jpg);
+}
+.tour-poster[data-venue="venice"]{
+  background-image: url(..//media/images/tour/venice.jpg);
+}
+
 
 .tour-date{
   width: 20%;
