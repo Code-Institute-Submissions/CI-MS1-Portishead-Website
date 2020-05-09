@@ -12,9 +12,14 @@
   --color-portishead-third-03: #8ab4bd;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   overflow-x: hidden;
+  background-color: var(--color-portishead-third-01);
 }
 body {
   position: relative;
@@ -158,6 +163,8 @@ a.nav-link.active-page {
   background-color: rgba(0, 0, 0, 0.2);
   color: var(--color-portishead-third-02);
   text-align: justify;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .bio p{
@@ -168,6 +175,10 @@ a.nav-link.active-page {
   color: var(--color-portishead-third-02);
   position: absolute;
   bottom: 0;
+}
+
+.member-profiles-main{
+  background-color: var(--color-portishead-third-01);
 }
 
 .member-profiles {
@@ -204,7 +215,7 @@ a.nav-link.active-page {
   padding: 0 0 0 0;
   font-size: 30px;
   color: var(--color-portishead-third-02);
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .profile-img:hover .profile-info{
@@ -221,7 +232,7 @@ a.nav-link.active-page {
   padding: 0 0 0 0;
   font-size: 30px;
   color: var(--color-portishead-third-02);
-  transition: all 1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .profile-img:hover .profile-name{
@@ -239,6 +250,8 @@ a.nav-link.active-page {
 .profile-img.adrain {
   background-image: url(..//media/images/adrian.jpg);
 }
+
+
 
 /*----------------------------------------------------------------FOOTER*/
 
@@ -528,6 +541,77 @@ a.nav-link.active-page {
 
 .row{
   padding: 0;
+}
+
+.my-gallery {
+  width: 100%;
+  float: left;
+  margin-top: 100px;
+}
+
+.my-gallery figure{
+  margin: 0;
+  padding: 0;
+}
+.gallery-img {
+  padding-top: 100%;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gallery-img[data-gallery-num="1"]
+{
+  background-image: url(..//media/images/photos/insta_01.jpg);
+}
+.gallery-img[data-gallery-num="2"]
+{
+  background-image: url(..//media/images/photos/insta_02.jpg);
+}
+.gallery-img[data-gallery-num="3"]
+{
+  background-image: url(..//media/images/photos/insta_03.jpg);
+}
+.gallery-img[data-gallery-num="4"]
+{
+  background-image: url(..//media/images/photos/insta_04.jpg);
+}
+.gallery-img[data-gallery-num="5"]
+{
+  background-image: url(..//media/images/photos/insta_05.jpg);
+}
+.gallery-img[data-gallery-num="6"]
+{
+  background-image: url(..//media/images/photos/insta_06.jpg);
+}
+.gallery-img[data-gallery-num="7"]
+{
+  background-image: url(..//media/images/photos/insta_07.jpg);
+}
+.gallery-img[data-gallery-num="8"]
+{
+  background-image: url(..//media/images/photos/insta_08.jpg);
+}
+.gallery-img[data-gallery-num="9"]
+{
+  background-image: url(..//media/images/photos/insta_09.jpg);
+}
+.gallery-img[data-gallery-num="10"]
+{
+  background-image: url(..//media/images/photos/insta_10.jpg);
+}
+.gallery-img[data-gallery-num="11"]
+{
+  background-image: url(..//media/images/photos/insta_11.jpg);
+}
+.gallery-img[data-gallery-num="12"]
+{
+  background-image: url(..//media/images/photos/insta_12.jpg);
 }
 
 @media only screen and (max-width: 576px) {
