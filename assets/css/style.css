@@ -156,7 +156,7 @@ a.nav-link.active-page {
 }
 
 .hero-inner {
-  background-color: var(--color-portishead-third-01)
+  background-color: var(--color-portishead-third-01);
 }
 
 .bio {
@@ -167,7 +167,7 @@ a.nav-link.active-page {
   padding-bottom: 5vh;
 }
 
-.bio p{
+.bio p {
   margin-top: 10px;
 }
 
@@ -177,7 +177,7 @@ a.nav-link.active-page {
   bottom: 0;
 }
 
-.member-profiles-main{
+.member-profiles-main {
   background-color: var(--color-portishead-third-01);
 }
 
@@ -194,15 +194,16 @@ a.nav-link.active-page {
   margin: 0 0 0 0;
 }
 .profile-img {
-  padding-top: 100%;
-  width: 100%;
+  padding-top: 95%;
+  width: 95%;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  margin: 0 auto;
+  margin: 5px auto;
   overflow: hidden;
+  border-radius: 50%;
 }
 
 .profile-info {
@@ -215,10 +216,10 @@ a.nav-link.active-page {
   padding: 0 0 0 0;
   font-size: 30px;
   color: var(--color-portishead-third-02);
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-.profile-img:hover .profile-info{
+.profile-img:hover .profile-info {
   top: 20%;
 }
 
@@ -232,10 +233,10 @@ a.nav-link.active-page {
   padding: 0 0 0 0;
   font-size: 30px;
   color: var(--color-portishead-third-02);
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-.profile-img:hover .profile-name{
+.profile-img:hover .profile-name {
   top: 0;
 }
 
@@ -250,8 +251,6 @@ a.nav-link.active-page {
 .profile-img.adrain {
   background-image: url(..//media/images/adrian.jpg);
 }
-
-
 
 /*----------------------------------------------------------------FOOTER*/
 
@@ -308,8 +307,7 @@ a.nav-link.active-page {
   font-size: 1em;
 }
 
-
-.album{
+.album {
   padding-top: 99%;
   width: 99%;
   background-size: cover;
@@ -321,64 +319,64 @@ a.nav-link.active-page {
   box-shadow: 1px 1px 3px #000;
 }
 
-.album[data-album="dummy"]{
+.album[data-album="dummy"] {
   background-image: url(..//media/images/Music/dummy.png);
 }
-.album[data-album="self-titled"]{
+.album[data-album="self-titled"] {
   background-image: url(..//media/images/Music/self-titled.jpg);
 }
-.album[data-album="third"]{
+.album[data-album="third"] {
   background-image: url(..//media/images/Music/third.jpg);
 }
 
-.album[data-album="roseland"]{
+.album[data-album="roseland"] {
   background-image: url(..//media/images/Music/roseland.jpg);
 }
 
-.album[data-album="chase-the-tear"]{
+.album[data-album="chase-the-tear"] {
   background-image: url(..//media/images/Music/chase-the-tear.jpg);
 }
 
-.album[data-album="magic-doors"]{
+.album[data-album="magic-doors"] {
   background-image: url(..//media/images/Music/magic-doors.jpg);
 }
-.album[data-album="the-rip"]{
+.album[data-album="the-rip"] {
   background-image: url(..//media/images/Music/the-rip.png);
 }
-.album[data-album="machine-gun"]{
+.album[data-album="machine-gun"] {
   background-image: url(..//media/images/Music/machine-gun.jpg);
 }
-.album[data-album="only-you"]{
+.album[data-album="only-you"] {
   background-image: url(..//media/images/Music/only-you.jpg);
 }
-.album[data-album="over"]{
+.album[data-album="over"] {
   background-image: url(..//media/images/Music/over.jpg);
 }
 
-.album[data-album="all-mine"]{
+.album[data-album="all-mine"] {
   background-image: url(..//media/images/Music/all-mine.jpg);
 }
-.album[data-album="glory-box"]{
+.album[data-album="glory-box"] {
   background-image: url(..//media/images/Music/glory-box.jpg);
 }
-.album[data-album="sour-times"]{
+.album[data-album="sour-times"] {
   background-image: url(..//media/images/Music/sour-times.jpg);
 }
-.album[data-album="numb"]{
+.album[data-album="numb"] {
   background-image: url(..//media/images/Music/numb.jpg);
 }
 
-.header-image{
+.header-image {
   min-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   background-position: 50% 26%;
   position: relative;
 }
 
-.header-image-title{
+.header-image-title {
   position: absolute;
   color: var(--color-portishead-third-02);
   font-weight: 500;
@@ -389,23 +387,37 @@ a.nav-link.active-page {
   transform: translate(-50%, -50%);
 }
 
-
-.header-image[data-page="Tour"]
-{
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/tour/tour-header.jpg);
+.header-image[data-page="Tour"] {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0) 0%,
+      rgba(49, 112, 136, 0.3) 49%,
+      rgba(49, 112, 136, 1) 100%
+    ),
+    url(..//media/images/tour/tour-header.jpg);
 }
 
-.header-image[data-page="music"]
-{
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images//Music/music-header.jpg);
+.header-image[data-page="music"] {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0) 0%,
+      rgba(49, 112, 136, 0.3) 49%,
+      rgba(49, 112, 136, 1) 100%
+    ),
+    url(..//media/images//Music/music-header.jpg);
 }
 
-.header-image[data-page="about"]
-{
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/about/about-header.jpg);
+.header-image[data-page="about"] {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0) 0%,
+      rgba(49, 112, 136, 0.3) 49%,
+      rgba(49, 112, 136, 1) 100%
+    ),
+    url(..//media/images/about/about-header.jpg);
 }
 
-.footer-image{
+.footer-image {
   min-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -413,29 +425,43 @@ a.nav-link.active-page {
   background-position: 50% 100%;
 }
 
-.footer-image[data-page="Tour"]
-{
-  background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/tour/tour-footer.jpg);
+.footer-image[data-page="Tour"] {
+  background-image: linear-gradient(
+      to top,
+      rgb(0, 0, 0) 0%,
+      rgba(49, 112, 136, 0.3) 49%,
+      rgba(49, 112, 136, 1) 100%
+    ),
+    url(..//media/images/tour/tour-footer.jpg);
 }
-.footer-image[data-page="music"]
-{
-  background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/Music/music-footer.jpg);
+.footer-image[data-page="music"] {
+  background-image: linear-gradient(
+      to top,
+      rgb(0, 0, 0) 0%,
+      rgba(49, 112, 136, 0.3) 49%,
+      rgba(49, 112, 136, 1) 100%
+    ),
+    url(..//media/images/Music/music-footer.jpg);
 }
-.footer-image[data-page="about"]
-{
-  background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(49, 112, 136, 0.3) 49%, rgba(49, 112, 136, 1) 100%), url(..//media/images/about/about-footer.png);
+.footer-image[data-page="about"] {
+  background-image: linear-gradient(
+      to top,
+      rgb(0, 0, 0) 0%,
+      rgba(49, 112, 136, 0.3) 49%,
+      rgba(49, 112, 136, 1) 100%
+    ),
+    url(..//media/images/about/about-footer.png);
   background-position-y: 25%;
 }
 
-.music-releases{
+.music-releases {
   background-color: var(--color-portishead-third-01);
-    margin-bottom: 5vh;
+  margin-bottom: 5vh;
 }
-.tour-main{
+.tour-main {
   background-color: var(--color-portishead-third-01);
-
 }
-.tour-poster{
+.tour-poster {
   padding-top: 45%;
   width: 90%;
   margin: 20px auto;
@@ -447,30 +473,29 @@ a.nav-link.active-page {
   box-shadow: 1px 1px 3px #000;
 }
 
-.tour-poster[data-venue="london"]{
+.tour-poster[data-venue="london"] {
   background-image: url(..//media/images/tour/londonO2.jpg);
 }
 
-.tour-poster[data-venue="paris"]{
+.tour-poster[data-venue="paris"] {
   background-image: url(..//media/images/tour/parisaccor.jpg);
 }
 
-.tour-poster[data-venue="berlin"]{
+.tour-poster[data-venue="berlin"] {
   background-image: url(..//media/images/tour/berlin.jpg);
 }
 
-.tour-poster[data-venue="dublin"]{
+.tour-poster[data-venue="dublin"] {
   background-image: url(..//media/images/tour/dublin.jpg);
 }
-.tour-poster[data-venue="barcelona"]{
+.tour-poster[data-venue="barcelona"] {
   background-image: url(..//media/images/tour/barcelona.jpg);
 }
-.tour-poster[data-venue="venice"]{
+.tour-poster[data-venue="venice"] {
   background-image: url(..//media/images/tour/venice.jpg);
 }
 
-
-.tour-date{
+.tour-date {
   width: 20%;
   height: 35%;
   background-color: var(--color-portishead-third-02);
@@ -479,77 +504,79 @@ a.nav-link.active-page {
   transform: translate(-30%, -70%);
   text-align: center;
   font-weight: 700;
-  background-image: linear-gradient(to right,var(--color-portishead-third-01),var(--color-portishead-third-03));
+  background-image: linear-gradient(
+    to right,
+    var(--color-portishead-third-01),
+    var(--color-portishead-third-03)
+  );
   color: var(--color-portishead-third-02);
   border-radius: 5px;
 }
 
-.venue{
+.venue {
   width: 50%;
   position: absolute;
   top: 0;
   padding-left: 3%;
 }
 
-.venue-name{
+.venue-name {
   position: absolute;
   margin: 0 auto;
 }
 
-.venue-name text{
+.venue-name text {
   fill: var(--color-portishead-third-02);
   font-weight: 400;
   text-transform: uppercase;
-
 }
 
-.tour-date-venue{
+.tour-date-venue {
   display: block;
   width: 100%;
   height: 25%;
 }
 
-.tour-date-date{
+.tour-date-date {
   display: block;
   width: 100%;
   height: 70%;
 }
 
-.tour-date-date text{
+.tour-date-date text {
   fill: var(--color-portishead-third-02);
 }
 
-.tour-date-month{
+.tour-date-month {
   display: block;
   width: 75%;
   height: 30%;
 }
 
-.tour-date-month text{
+.tour-date-month text {
   fill: var(--color-portishead-third-02);
 }
-
 
 /*----------------------------------------------------------------BOOTSTRAP OVERRIDES*/
 .list-inline-item:not(:last-child) {
   margin-right: 0;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 0;
 }
 
-.row{
+.row {
   padding: 0;
 }
 
 .my-gallery {
   width: 100%;
-  float: left;
+  /* float: left; */
   margin-top: 100px;
 }
 
-.my-gallery figure{
+.my-gallery figure {
   margin: 0;
   padding: 0;
 }
@@ -565,53 +592,101 @@ a.nav-link.active-page {
   overflow: hidden;
 }
 
-.gallery-img[data-gallery-num="1"]
-{
+.gallery-img[data-gallery-num="1"] {
   background-image: url(..//media/images/photos/insta_01.jpg);
 }
-.gallery-img[data-gallery-num="2"]
-{
+.gallery-img[data-gallery-num="2"] {
   background-image: url(..//media/images/photos/insta_02.jpg);
 }
-.gallery-img[data-gallery-num="3"]
-{
+.gallery-img[data-gallery-num="3"] {
   background-image: url(..//media/images/photos/insta_03.jpg);
 }
-.gallery-img[data-gallery-num="4"]
-{
+.gallery-img[data-gallery-num="4"] {
   background-image: url(..//media/images/photos/insta_04.jpg);
 }
-.gallery-img[data-gallery-num="5"]
-{
+.gallery-img[data-gallery-num="5"] {
   background-image: url(..//media/images/photos/insta_05.jpg);
 }
-.gallery-img[data-gallery-num="6"]
-{
+.gallery-img[data-gallery-num="6"] {
   background-image: url(..//media/images/photos/insta_06.jpg);
 }
-.gallery-img[data-gallery-num="7"]
-{
+.gallery-img[data-gallery-num="7"] {
   background-image: url(..//media/images/photos/insta_07.jpg);
 }
-.gallery-img[data-gallery-num="8"]
-{
+.gallery-img[data-gallery-num="8"] {
   background-image: url(..//media/images/photos/insta_08.jpg);
 }
-.gallery-img[data-gallery-num="9"]
-{
+.gallery-img[data-gallery-num="9"] {
   background-image: url(..//media/images/photos/insta_09.jpg);
 }
-.gallery-img[data-gallery-num="10"]
-{
+.gallery-img[data-gallery-num="10"] {
   background-image: url(..//media/images/photos/insta_10.jpg);
 }
-.gallery-img[data-gallery-num="11"]
-{
+.gallery-img[data-gallery-num="11"] {
   background-image: url(..//media/images/photos/insta_11.jpg);
 }
-.gallery-img[data-gallery-num="12"]
-{
+.gallery-img[data-gallery-num="12"] {
   background-image: url(..//media/images/photos/insta_12.jpg);
+}
+
+.newsletter-signup {
+  padding: 4rem 0 0 0;
+  text-align: center;
+}
+
+.newsletter-signup-title {
+  color: var(--color-portishead-third-03);
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.newsletter-signup-options{
+  margin: 1rem auto;
+}
+.newsletter-signup-checkboxes{
+  color: var(--color-portishead-third-02);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.newsletter-signup-email,
+.newsletter-signup-country,
+.newsletter-signup-submit {
+  margin-top: 1rem;
+}
+
+.newsletter-signup-submit {
+  background-color: var(--color-portishead-third-03);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-portishead-third-02);
+  border-radius: 0;
+  border-width: 2px;
+  border-color: var(--color-portishead-third-02);
+  margin: 1rem auto;
+}
+
+.newsletter-signup-submit:hover {
+  color: var(--color-portishead-third-03);
+  background-color: var(--color-portishead-third-02);
+  border-color: var(--color-portishead-third-03);
+}
+
+.newsletter-signup-email,
+.newsletter-signup-country {
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--color-portishead-third-02);
+  border-width: 0 0 2px 0;
+  border-radius: 0;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-portishead-third-02);
+}
+
+.newsletter-signup-email::placeholder {
+  color: var(--color-portishead-third-02);
 }
 
 @media only screen and (max-width: 576px) {
@@ -623,20 +698,73 @@ a.nav-link.active-page {
     background-size: 130%;
   }
 
+}
+
+@media (min-width: 1200px) {
   .p-logo{
-    visibility:visible;
+    visibility: visible;
   }
 }
 
+
+
 @media only screen and (max-width: 768px) {
-  .p-logo{
-    visibility:visible;
+  .p-logo {
+    visibility: visible;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  .p-logo{
-    visibility:visible;
+  .p-logo {
+    visibility: visible;
   }
 }
 
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 2px solid var(--color-portishead-third-02);
+    border-radius: 0;
+    background: transparent;
+    transition: background 0.3s, border-color 0.3s;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    margin-left: 4px;
+  }
+  input[type="checkbox"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
+    opacity: var(--o, 0);
+    width: 7px;
+    height: 14px;
+    border: 3px solid var(--color-portishead-third-02);
+    border-top: 0;
+    border-left: 0;
+    left: 7px;
+    top: 3px;
+    transform: rotate(var(--r, 20deg));
+  }
+  input[type="checkbox"]:checked {
+    background-color: transparent;
+    border-color: var(--color-portishead-third-02);
+    border-width: 2px;
+    border-radius: 0;
+    --d-o: 0.3s;
+    --d-t: 0.6s;
+    --d-t-e: cubic-bezier(0.2, 0.85, 0.32, 1.2);
+    --o: 1;
+    --r: 43deg;
+  }
+
+}
