@@ -319,12 +319,12 @@ a.nav-link.active-page {
   z-index: 100;
 }
 
-.album:hover:hover .album-art{
+.album:hover .album-art{
   filter: blur(5px);
   -webkit-filter: blur(5px);
 }
 
-.album:hover:hover .album-overlay{
+.album:hover .album-overlay{
   opacity: 1;
 }
 
@@ -658,6 +658,24 @@ a.nav-link.active-page {
   text-align: center;
   margin: 0 auto;
   overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery-square{
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery-square:hover{
+  transform: scale(1.1);
+  z-index: 100;
+}
+
+.gallery-square:hover  .gallery-img{
+  filter: blur(5px);
+}
+
+.gallery-square:hover .album-overlay{
+  opacity: 1;
 }
 
 .gallery-img[data-gallery-num="1"] {
