@@ -266,12 +266,13 @@ a.nav-link.active-page {
 }
 .social-icon i {
   color: var(--color-portishead-third-02);
-  font-size: 1.5em;
+  font-size: 1rem;
   transition: all 0.3s ease-in-out;
 }
 
 .social-icon i:hover {
   color: var(--color-portishead-third-03);
+  font-size: 1.1rem;
 }
 
 .record-label {
@@ -284,28 +285,20 @@ a.nav-link.active-page {
 .island-logo svg {
   width: 3em;
   height: 100%;
+  transition: all 0.3s ease-in-out;
 }
+  
 
 .island-logo svg path {
   fill: var(--color-portishead-third-02);
   transition: all 0.3s ease-in-out;
 }
 
-.island-logo svg path:hover {
+.island-logo svg path:hover{
   fill: var(--color-portishead-third-03);
 }
 
-.copyright {
-  text-align: center;
-  color: #dde3e6;
-  font-size: 1em;
-}
 
-.copyright a {
-  text-align: center;
-  color: #dde3e6;
-  font-size: 1em;
-}
 
 .album {
   padding-top: 99%;
@@ -426,6 +419,16 @@ a.nav-link.active-page {
   background-size: cover;
   max-width: 100%;
   background-position: 50% 100%;
+}
+
+.footer-image[data-page="home"] {
+  background-image: linear-gradient(
+    to top,
+    rgb(0, 0, 0) 0%,
+    rgba(49, 112, 136, 0.3) 49%,
+    rgba(49, 112, 136, 1) 100%
+  ),
+  url();
 }
 
 .footer-image[data-page="Tour"] {
@@ -780,5 +783,23 @@ a.nav-link.active-page {
   height:80vh;
   object-fit: cover;
   
+  }
+
+  .legal-item{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .legal-item a{
+    color: #dde3e6;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .legal-item a:hover{
+    color: var(--color-portishead-third-03);
+    font-size: 0.9rem;
   }
 
