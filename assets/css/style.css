@@ -741,7 +741,7 @@ a.nav-link.active-page {
   filter: blur(5px);
 }
 
-.album:hover .album-overlay {
+.gallery-square:hover .album-overlay{
   opacity: 1;
 }
 
