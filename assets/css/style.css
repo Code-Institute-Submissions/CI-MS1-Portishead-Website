@@ -287,18 +287,15 @@ a.nav-link.active-page {
   height: 100%;
   transition: all 0.3s ease-in-out;
 }
-  
 
 .island-logo svg path {
   fill: var(--color-portishead-third-02);
   transition: all 0.3s ease-in-out;
 }
 
-.island-logo svg path:hover{
+.island-logo svg path:hover {
   fill: var(--color-portishead-third-03);
 }
-
-
 
 .album {
   padding-top: 99%;
@@ -369,7 +366,6 @@ a.nav-link.active-page {
   position: relative;
 }
 
-
 .header-image-title {
   position: absolute;
   color: var(--color-portishead-third-02);
@@ -411,8 +407,6 @@ a.nav-link.active-page {
     url(..//media/images/about/about-header.jpg);
 }
 
-
-
 .footer-image {
   min-height: 500px;
   background-repeat: no-repeat;
@@ -423,12 +417,12 @@ a.nav-link.active-page {
 
 .footer-image[data-page="home"] {
   background-image: linear-gradient(
-    to top,
-    rgb(0, 0, 0) 0%,
-    rgba(49, 112, 136, 0.3) 49%,
-    rgba(49, 112, 136, 1) 100%
-  ),
-  url();
+      to top,
+      rgb(0, 0, 0) 0%,
+      rgba(49, 112, 136, 0.3) 49%,
+      rgba(49, 112, 136, 1) 100%
+    ),
+    url();
 }
 
 .footer-image[data-page="Tour"] {
@@ -647,10 +641,10 @@ a.nav-link.active-page {
   text-align: center;
 }
 
-.newsletter-signup-options{
+.newsletter-signup-options {
   margin: 1rem auto;
 }
-.newsletter-signup-checkboxes{
+.newsletter-signup-checkboxes {
   color: var(--color-portishead-third-02);
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -703,16 +697,13 @@ a.nav-link.active-page {
   .hero-bg-fixed {
     background-size: 130%;
   }
-
 }
 
 @media (min-width: 1200px) {
-  .p-logo{
+  .p-logo {
     visibility: visible;
   }
 }
-
-
 
 @media only screen and (max-width: 768px) {
   .p-logo {
@@ -750,7 +741,8 @@ a.nav-link.active-page {
     content: "";
     display: block;
     position: absolute;
-    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
+    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease),
+      opacity var(--d-o, 0.2s);
     opacity: var(--o, 0);
     width: 7px;
     height: 14px;
@@ -775,31 +767,66 @@ a.nav-link.active-page {
 }
 
 .carousel {
-  height:80vh;
+  height: 80vh;
   margin-top: 3rem;
-  }
-  
-  .carousel-inner img {
-  height:80vh;
+}
+
+.carousel-inner img {
+  height: 80vh;
   object-fit: cover;
-  
-  }
+}
 
-  .legal-item{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+.carousel-btn {
+  color: var(--color-portishead-third-02);
+  background-color: rgba(49, 111, 136, 0.7);
+  border-radius: 0;
+  text-transform: uppercase;
+  border: solid 2px var(--color-portishead-third-02);
+  box-shadow: 2px 1px rgba(0, 0, 0, 0.2);
+}
 
-  .legal-item a{
-    color: #dde3e6;
-    font-size: 0.8rem;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-  }
+.carousel-btn:hover {
+  color: rgba(49, 111, 136, 0.7);
+  background-color: var(--color-portishead-third-02);
+  border: solid 2px rgba(49, 111, 136, 0.7);
+}
 
-  .legal-item a:hover{
-    color: var(--color-portishead-third-03);
-    font-size: 0.9rem;
-  }
+.carousel-caption {
+  color: var(--color-portishead-third-02);
+}
 
+.carousel-caption h5 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--color-portishead-third-03);
+  text-shadow: 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li {
+  background-color: var(--color-portishead-third-03);
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23317088'  width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+.carousel-control-prev-icon {
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23317088' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e")
+}
+
+.legal-item {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.legal-item a {
+  color: #dde3e6;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.legal-item a:hover {
+  color: var(--color-portishead-third-03);
+  font-size: 0.9rem;
+}
