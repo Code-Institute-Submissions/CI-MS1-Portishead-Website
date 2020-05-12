@@ -1074,3 +1074,7 @@ a.nav-link.active-page {
 .youtube-embed{
   border: solid 2px var(--color-portishead-third-02);
 }
+
+.section-button{
+  margin: 0 auto;
+}
