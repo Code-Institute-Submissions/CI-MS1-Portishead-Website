@@ -204,6 +204,7 @@ a.nav-link.active-page {
   margin: 5px auto;
   overflow: hidden;
   border-radius: 50%;
+  transition: all 1s ease-in-out;
 }
 
 .profile-info {
@@ -214,13 +215,25 @@ a.nav-link.active-page {
   width: 100%;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  font-size: 30px;
   color: var(--color-portishead-third-02);
   transition: all 0.5s ease-in-out;
 }
+.profile-instruments{
 
+}
+
+.profile-projects{
+
+}
+
+.profile-img:hover{
+  filter: invert(100%);
+}
 .profile-img:hover .profile-info {
   top: 20%;
+}
+.profile-img:hover .profile-name {
+  top: 0;
 }
 
 .profile-name {
@@ -231,14 +244,45 @@ a.nav-link.active-page {
   width: 100%;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  font-size: 30px;
-  color: var(--color-portishead-third-02);
   transition: all 0.5s ease-in-out;
+  font-size: 0.1rem;
 }
 
-.profile-img:hover .profile-name {
-  top: 0;
+.profile-name svg {
+
 }
+
+.profile-name svg text{
+  fill: var(--color-portishead-third-02);
+}
+
+.profile-instruments{
+  font-size: 0.1rem;
+  margin-top: 10%;
+}
+
+.profile-instruments svg text{
+  fill: var(--color-portishead-third-02);
+}
+
+.profile-projects{
+  font-size: 0.1rem;
+  margin-top: 10%;
+}
+
+.profile-projects svg text{
+  fill: var(--color-portishead-third-02);
+}
+
+.profile-instruments-names{
+  margin-top: -10%;
+}
+.profile-project-names{
+  margin-top: -10%;
+}
+
+
+
 
 .profile-img.beth {
   background-image: url(..//media/images/beth.jpg);
@@ -987,3 +1031,4 @@ a.nav-link.active-page {
 .navbar {
   z-index: 200;
 }
+
