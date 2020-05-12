@@ -286,14 +286,16 @@ a.nav-link.active-page {
 /*----------------------------------------------------------------FOOTER*/
 
 .footer {
-  background: rgb(2, 0, 36);
+  /* background: rgb(2, 0, 36);
   background: linear-gradient(
     180deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(49, 112, 136, 1) 80%
-  );
+  ); */
   /* box-shadow: -1px -1px 3px #000; */
   /*box-shadow: 0px -20px 15px 0px rgba(49, 112, 136, 0.2);*/
+  background-color: #000;
+  border-top: solid 1px rgb(24, 24, 24);
 }
 
 .social-links {
@@ -535,13 +537,15 @@ a.nav-link.active-page {
 }
 
 .footer-image[data-page="home"] {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to top,
       rgb(0, 0, 0) 0%,
       rgba(49, 112, 136, 0.3) 49%,
       rgba(49, 112, 136, 1) 100%
     ),
-    url();
+    url(); */
+    background-color: #000;
+    min-height: 20rem;
 }
 
 .footer-image[data-page="Tour"] {
@@ -1073,6 +1077,7 @@ a.nav-link.active-page {
 
 .youtube-embed{
   border: solid 2px var(--color-portishead-third-02);
+  margin-bottom: 5rem;
 }
 
 .section-button{
@@ -1087,4 +1092,8 @@ a.nav-link.active-page {
   background-color: var(--color-portishead-third-03);
   border: solid 2px var(--color-portishead-third-01);
   color: var(--color-portishead-third-01);
+}
+
+.copyright{
+  margin: 0;
 }
