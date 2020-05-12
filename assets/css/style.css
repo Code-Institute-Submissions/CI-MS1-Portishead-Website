@@ -218,16 +218,11 @@ a.nav-link.active-page {
   color: var(--color-portishead-third-02);
   transition: all 0.5s ease-in-out;
 }
-.profile-instruments{
 
-}
-
-.profile-projects{
-
-}
 
 .profile-img:hover{
-  filter: invert(100%);
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 .profile-img:hover .profile-info {
   top: 20%;
@@ -248,9 +243,6 @@ a.nav-link.active-page {
   font-size: 0.1rem;
 }
 
-.profile-name svg {
-
-}
 
 .profile-name svg text{
   fill: var(--color-portishead-third-02);
@@ -507,6 +499,16 @@ a.nav-link.active-page {
     url(..//media/images//Music/music-header.jpg);
 }
 
+.header-image[data-page="photos"] {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0) 0%,
+      rgba(49, 112, 136, 0.3) 49%,
+      rgba(49, 112, 136, 1) 100%
+    ),
+    url(..//media/images/photos/photos-header.jpg);
+}
+
 .header-image[data-page="about"] {
   background-image: linear-gradient(
       to bottom,
@@ -553,6 +555,17 @@ a.nav-link.active-page {
     ),
     url(..//media/images/Music/music-footer.jpg);
 }
+
+.footer-image[data-page="photos"] {
+  background-image: linear-gradient(
+      to top,
+      rgb(0, 0, 0) 0%,
+      rgba(49, 112, 136, 0.3) 49%,
+      rgba(49, 112, 136, 1) 100%
+    ),
+    url(..//media/images/photos/photos-footer.jpg);
+}
+
 .footer-image[data-page="about"] {
   background-image: linear-gradient(
       to top,
@@ -584,7 +597,8 @@ a.nav-link.active-page {
 }
 
 .tour-event:hover .tour-poster {
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 .tour-event:hover .album-overlay {
   opacity: 1;
@@ -782,7 +796,8 @@ a.nav-link.active-page {
 }
 
 .gallery-square:hover .gallery-img {
-  filter: blur(5px);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
 }
 
 .gallery-square:hover .album-overlay{
@@ -882,6 +897,22 @@ a.nav-link.active-page {
   border-bottom-color: var(--color-portishead-third-02);
 }
 
+.newsletter-signup-email::-webkit-input-placeholder {
+  color: var(--color-portishead-third-02);
+}
+
+.newsletter-signup-email::-moz-placeholder {
+  color: var(--color-portishead-third-02);
+}
+
+.newsletter-signup-email:-ms-input-placeholder {
+  color: var(--color-portishead-third-02);
+}
+
+.newsletter-signup-email::-ms-input-placeholder {
+  color: var(--color-portishead-third-02);
+}
+
 .newsletter-signup-email::placeholder {
   color: var(--color-portishead-third-02);
 }
@@ -970,7 +1001,8 @@ a.nav-link.active-page {
 
 .carousel-inner img {
   height: 80vh;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .carousel-btn {
