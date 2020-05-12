@@ -219,10 +219,9 @@ a.nav-link.active-page {
   transition: all 0.5s ease-in-out;
 }
 
-
-.profile-img:hover{
+.profile-img:hover {
   -webkit-filter: invert(100%);
-          filter: invert(100%);
+  filter: invert(100%);
 }
 .profile-img:hover .profile-info {
   top: 20%;
@@ -243,38 +242,34 @@ a.nav-link.active-page {
   font-size: 0.1rem;
 }
 
-
-.profile-name svg text{
+.profile-name svg text {
   fill: var(--color-portishead-third-02);
 }
 
-.profile-instruments{
+.profile-instruments {
   font-size: 0.1rem;
   margin-top: 10%;
 }
 
-.profile-instruments svg text{
+.profile-instruments svg text {
   fill: var(--color-portishead-third-02);
 }
 
-.profile-projects{
+.profile-projects {
   font-size: 0.1rem;
   margin-top: 10%;
 }
 
-.profile-projects svg text{
+.profile-projects svg text {
   fill: var(--color-portishead-third-02);
 }
 
-.profile-instruments-names{
+.profile-instruments-names {
   margin-top: -10%;
 }
-.profile-project-names{
+.profile-project-names {
   margin-top: -10%;
 }
-
-
-
 
 .profile-img.beth {
   background-image: url(..//media/images/beth.jpg);
@@ -291,7 +286,12 @@ a.nav-link.active-page {
 /*----------------------------------------------------------------FOOTER*/
 
 .footer {
-  background-color: var(--color-portishead-third-01);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 112, 136, 1) 80%
+  );
   /* box-shadow: -1px -1px 3px #000; */
   /*box-shadow: 0px -20px 15px 0px rgba(49, 112, 136, 0.2);*/
 }
@@ -468,6 +468,13 @@ a.nav-link.active-page {
   position: relative;
 }
 
+.section-heading {
+  min-height: 200px;
+  max-width: 100%;
+  margin-top: 2.5rem;
+  position: relative;
+}
+
 .header-image-title {
   position: absolute;
   color: var(--color-portishead-third-02);
@@ -530,9 +537,9 @@ a.nav-link.active-page {
 .footer-image[data-page="home"] {
   background-image: linear-gradient(
       to top,
-      rgba(49, 112, 136, 1) 0%,
+      rgb(0, 0, 0) 0%,
       rgba(49, 112, 136, 0.3) 49%,
-       rgb(0,0,0) 100%
+      rgba(49, 112, 136, 1) 100%
     ),
     url();
 }
@@ -598,7 +605,7 @@ a.nav-link.active-page {
 
 .tour-event:hover .tour-poster {
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 .tour-event:hover .album-overlay {
   opacity: 1;
@@ -797,10 +804,10 @@ a.nav-link.active-page {
 
 .gallery-square:hover .gallery-img {
   -webkit-filter: blur(5px);
-          filter: blur(5px);
+  filter: blur(5px);
 }
 
-.gallery-square:hover .album-overlay{
+.gallery-square:hover .album-overlay {
   opacity: 1;
 }
 
@@ -1002,7 +1009,7 @@ a.nav-link.active-page {
 .carousel-inner img {
   height: 80vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .carousel-btn {
@@ -1064,4 +1071,6 @@ a.nav-link.active-page {
   z-index: 200;
 }
 
-
+.youtube-embed{
+  border: solid 2px var(--color-portishead-third-02);
+}
