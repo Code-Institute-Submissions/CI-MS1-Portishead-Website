@@ -1076,5 +1076,15 @@ a.nav-link.active-page {
 }
 
 .section-button{
-  margin: 0 auto;
+  background-color: transparent;
+  border: solid 2px var(--color-portishead-third-03);
+  color: var(--color-portishead-third-03);
+  border-radius: 0;
+}
+
+
+.section-button:hover{
+  background-color: var(--color-portishead-third-03);
+  border: solid 2px var(--color-portishead-third-01);
+  color: var(--color-portishead-third-01);
 }
