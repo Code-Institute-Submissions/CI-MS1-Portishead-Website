@@ -1,70 +1,47 @@
+# PORISHEAD (BAND) WEBSITE
 
-<h1  align="center">
-
-<a  href="https://kieran-murray-code.github.io/CI-MS1-Portishead-Website"  target="_blank"><img  src="https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/blob/master/assets/media/images/Music/third.jpg?raw=true"  alt="Portishead Logo"/></a>
-
-</h1>
-
-<h2  align="center">PORISHEAD (BAND) WEBSITE</h2>
-
-  
+This is a project website for the UK band Portishead. The project aims to develop a modern mobile first website for the band for long time fans as well new fans just discovering thier music to find out information on the bands music and tour dates and band memebers.
 
 
+## UX:
 
-<div>[Live Site On Github Pages](https://kieran-murray-code.github.io/CI-MS1-Portishead-Website)
-
-
-  
-
-<div>This is a project website for the UK band Portishead. The project aims to develop a modern mobile first website for the band for long time fans as well new fans just discovering thier music to find out information on the bands music and tour dates and band memebers.</div>
-
----
-
-<h2>UX:<h2>
-<h3> User Stories <h3>
-
- 1. As a fan of the band I wish to find out about if can see them play
+###  User Stories 
+- As a fan of the band I wish to find out about if can see them play
     live.
-
-	 - The **Carousel** header on the home page has a slide that informs the
+- The **Carousel** header on the home page has a slide that informs the
    user of a 2020 tour and has a call to action button that asks to user
    to see the dates, this will link them to the **Tour** page. 
-   
-	- The next 2 upcoming  tour dates on the home page with a call to action button to see all tour dates this will link them to the **Tour** page. The user can also interact with the **Tour Date Cards** to get an overlay with the venue name and links to **RSVP** or **Buy Tickets**.
+   - The next 2 upcoming  tour dates on the home page with a call to action button to see all tour dates this will link them to the **Tour** page. The user can also interact with the **Tour Date Cards** to get an overlay with the venue name and links to **RSVP** or **Buy Tickets**.
 	
 	- The **Tour** page provides the user with **Tour Date Cards** for all the bands upcoming shows, the **Tour Date Cards**  have the city, country and dates visable and then on hover the reveal the venue with a link to it as well as links to to **RSVP** or **Buy Tickets**.
 	 
- 2. As a new fan of the band I want to find out all the music that the band has made and where to listen to or buy the music.
-	 
+ -  As a new fan of the band I want to find out all the music that the band has made and where to listen to or buy the music.
 	 - The **Carousel** header on the home page has a slide that informs the
    user of a vinyl repress of the bands latest album and a call to action button that brings the user to a site to buy it.
-	  
+	 
 	  - Some of the bands music is shown on the home page with a call to action button to see all music that leads the **Music** page. The music releases have a hover effect that reveals the album name, release year and **Spotify** link to listen to it.
 	   
 	   - The **Music** page has a grid of all the albums and singles the band has released, The music releases have a hover effect that reveals the album name, release year and **Spotify** link to listen to it.
 
-3. As fan of the band or a memeber of the press I want to see and download photos of the band.
+-  As fan of the band or a memeber of the press I want to see and download photos of the band.
 	- The **Photos** page has gallery of images from the band that can be viewed fullscreen in a **Lightbox**,  the **Lightbox** allows the users to share the image on **Facebook**, **Twitter**, **Pinterest** or **Download** the image directly to thier device.
 
-4. As a new fan I want to find out about the bands history and information on the band memebers.
+-  As a new fan I want to find out about the bands history and information on the band memebers.
 	- The **About** page has a biography summary of the bands history.
 	-The **About** page has band memeber profiles that are presented as profile images of each member with thier name over it, when hovered over more information on what instrument they play and other projects that they are involved with are revealed on an overlay.
 
-5. As a fan I wish to find out news on the band, if they are working on new music, if a new tour is happening etc.
+- As a fan I wish to find out news on the band, if they are working on new music, if a new tour is happening etc.
 	- The **Home** page has a **Newsletter Sign Up** form which allows the user to input an **email** and select thier **country** in order to recieve relevant information in a **newsletter** sent directly to thier **email**
 	- The site fails to provide any news to a user that doesnt wish to sign up by email for a newsletter, the site needs a dedicated **News** page that will archive all news posts.
 
-6. As a fan I wish to purchase **merchandise** from the band such as t-shirts, posters and music releases.
+-  As a fan I wish to purchase **merchandise** from the band such as t-shirts, posters and music releases.
 	- The site fails to provide a page for **merchandise**, other than the call to action in the carorusel on the home page to buy the latest album on an exteral site there is no way to buy **merchandise** from the band. The site needs a dedicated **Store** page.
 
-
----
-
-<h2>Features:<h2>
+## Features:
 
   
 
-<h3>Common Features</h3>
+### Common Features
 
   
 
@@ -76,9 +53,7 @@
 
 -  Each page contains a footer with the record label logo, social media links and legal/copyright information.
 
-  
-
-<h3>Home Page</h3>
+  ### Home Page
 
   
 
@@ -92,7 +67,7 @@
 
   
 
-<h3>Music Page</h3>
+### Music Page
 
   
 
@@ -104,10 +79,7 @@
 
   
 
-<h3>Tour Page</h3>
-
-  
-
+### Tour Page
 -  A header and footer image with a gradient fade.
 
 -  A Grid of the band's upcoming tour dates.
@@ -116,7 +88,7 @@
 
   
 
-<h3>Photos Page</h3>
+### Photos Page
 
 -  A header and footer image with a gradient fade
 
@@ -127,7 +99,7 @@
   
   
 
-<h3>About Page</h3>
+### About Page
 
 -  A header and footer image with a gradient fade
 
@@ -139,7 +111,7 @@
 
   
 
-<h3>Features To Implement<h3>
+### Features To Implement
 
 -  A News page where users can read past news stories that they have missed before signing up for the newsletter.
 
@@ -147,7 +119,7 @@
 
   
 
-<h2>Technologies Used<h2>
+## Technologies Used
 
   
 
@@ -185,17 +157,17 @@
 
 	- The project used the **Autoprefixer CSS** to ensure CSS compatability with all browsers.
 
-<h2>Testing<h2>
+## Testing
 
-<h2>Deployment<h2>
+## Deployment
 
-<h2>Credits<h2>
-<h3>Content<h3>
+## Credits
+### Content
 
 - Content in the biography in the **About Page** taken from [https://www.allmusic.com/artist/portishead-mn0000301619/biography](https://www.allmusic.com/artist/portishead-mn0000301619/biography)
 
-<h3>Media<h3>
-	<h4>Home Page<h4>
+### Media
+#### Home Page
 	
  - Carousel Images
 	 - [https://unsplash.com/photos/NYrVisodQ2M](https://unsplash.com/photos/NYrVisodQ2M)
@@ -205,7 +177,7 @@
  - Portishead "P" logo - [https://commons.wikimedia.org/wiki/File:Portishead.svg](https://commons.wikimedia.org/wiki/File:Portishead.svg)
  - Island Records logo - [https://commons.wikimedia.org/wiki/File:Island_Records_logo.svg](https://commons.wikimedia.org/wiki/File:Island_Records_logo.svg)
  - SOS Video - [https://www.youtube.com/watch?v=WVe-9VWIcCo](https://www.youtube.com/watch?v=WVe-9VWIcCo)
-<h4>Music Page<h4>
+ - #### Music Page
 
 - Albums
 	- Dummy -  https://images-na.ssl-images-amazon.com/images/I/713j89t%2BDkL._SX522_.jpg
@@ -226,7 +198,7 @@
 - Header[https://unsplash.com/photos/hAVodSB_GTo](https://unsplash.com/photos/hAVodSB_GTo) 
 - Footer - [https://unsplash.com/photos/vGXHIh3URzc](https://unsplash.com/photos/vGXHIh3URzc)
 
-<h4>Tour<h4>
+#### Tour
 
  - Header - [https://upload.wikimedia.org/wikipedia/commons/9/92/Portishead13b.jpg](https://upload.wikimedia.org/wikipedia/commons/9/92/Portishead13b.jpg)
  - Footer - [https://live.staticflickr.com/3294/2379928392_4e5a84c33e_z.jpg](https://live.staticflickr.com/3294/2379928392_4e5a84c33e_z.jpg)
@@ -241,24 +213,24 @@
 	 - Moscow - https://www.systemair.com/fileadmin/user_upload/systemair-b2b/References/Russia_ref/RU_Spartak_arena.jpg
 	 - Helsinki -https://icdn.lenta.ru/images/2013/06/28/19/20130628193849550/pic_6027986f2c8d5d386651221ec37d29d1.jpg
 
-<h4>Photos<h4>
+#### Photos
 
  - Header - https://images.unsplash.com/photo-1536852926408-d079bc2c67d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80
  - Footer - https://images.unsplash.com/photo-1518353053542-7ea33d942319?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80
  - Gallery Photos All From - [https://www.instagram.com/portisheadmusic/](https://www.instagram.com/portisheadmusic/)
 
-<h4>About<h4>
+#### About
 
  - Header - https://i2-prod.bristolpost.co.uk/incoming/article3250900.ece/ALTERNATES/s1200b/0_4385568-6.jpg
  - Footer - https://static-mag.itcher.com/mag/wp-content/uploads/2015/09/Portishead.jpg
  - Beth - https://bethgibbons.fr/wp-content/uploads/2019/06/Beth_Gibbons_-_Portishead_-_Roskilde_Festival_2011_-_Orange_Scene-1024x681.jpg
  - Geoff - https://upload.wikimedia.org/wikipedia/commons/6/60/Geoff_Barrow%2C_at_the_mixing_desk_in_State_of_Art_Studio%2C_Bristol.jpg
 
-<h3>Code<h3>
+### Code
 
  - HTML Country List - https://gist.github.com/danrovito/977bcb97c9c2dfd3398a
  - Custom Checkboxes - https://css-tricks.com/custom-styling-form-inputs-with-modern-css-features/
-<h3>Acknowledgements<h3>
+### Acknowledgements
  
  - Inspiration
 	 - Gradient faded header and footer images - [https://cypresshill.com/](https://cypresshill.com/)
