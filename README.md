@@ -3,14 +3,21 @@
 
   
 
-This is a project website for the UK band Portishead. The project aims to develop a modern mobile first website for the band for long time fans as well new fans just discovering their music to find out information on the bands music and tour dates and band members.
+This is a project website for the UK band Portishead. The project aims to develop a modern mobile first website for long time fans as well new fans just discovering the band's music. It helps them to find out information on the bands music and tour dates as well as the band's history and information on  band members.  See the bands current website here -[Portishead's Offical Webiste](https://www.portishead.co.uk/home/).
 
   
   
 
 ## UX:
 
-  
+### Design choices
+  The color scheme was choosen based on the band most recent album artwork -[Third Artwork](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/blob/master/assets/media/images/Music/third.jpg).
+  I used [https://imagecolorpicker.com/en/](https://imagecolorpicker.com/en/) to genertate a colour pallete from the artwork image.
+  I looked at many popular band websites and noticed a lot of common design patterns such as the grid of music releases and photo grid. 
+  The main site that I took design choices from were .
+  - [https://www.imaginedragonsmusic.com/](https://www.imaginedragonsmusic.com/)
+  - [https://cypresshill.com/](https://cypresshill.com/)
+  - [https://www.thekillersmusic.com/](https://www.thekillersmusic.com/) 
 
 ### User Stories
 
@@ -188,87 +195,40 @@ Below are wireframe for the site developed in [https://balsamiq.com/](https://ba
 - [News Page](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/blob/master/Wireframes/MS1%20News%20Page.png) (To Be Added)
   
 
-## Technologies Used
+## Technologies Used  
 
-  
+### Languages Used
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3)
 
-  
+### Tools Used
 
 -  <a  href="https://code.visualstudio.com/"  rel="noopener"  target="_blank">**Visual Studio**</a>
-
-  
-
 - The project used the **Visual Studio** IDE to develop the website linked with **Github** for version control.
 
-  
-
-  
-
 -  <a  href="https://getbootstrap.com/"  rel="noopener"  target="_blank">**Bootstrap 4**</a>
-
-  
-
-- The project used the **Bootstrap 4** for a responsive grid system.
-
-  
-
-  
-
+  - The project used the **Bootstrap 4** for a responsive grid system.
+   
 -  <a  href="https://fontawesome.com/"  rel="noopener"  target="_blank">**Font Awesome 5**</a>
-
-  
-
 - The project used the **Font Awesome 5** for a icons throughout the site.
-
-  
-
-  
-
+ 
 -  <a  href="https://photoswipe.com/"  rel="noopener"  target="_blank">**Photo Swipe**</a>
-
-  
-
 - The project used the **Photo Swipe** for a lightbox photo gallery.
-
-  
-
-  
-
+ 
 -  <a  href="https://favicon.io/favicon-converter/"  rel="noopener"  target="_blank">**Favicon.io**</a>
-
-  
-
 - The project used the **Favicon.io** the favicon icons or the site.
 
-  
-
-  
-
--  <a  href="https://autoprefixer.github.io/"  rel="noopener"  target="_blank">**Autoprefixer CSS**</a>
-
-  
-
+- <a  href="https://autoprefixer.github.io/"  rel="noopener"  target="_blank">**Autoprefixer CSS**</a>
 - The project used the **Autoprefixer CSS** to ensure CSS compatibility with all browsers.
-
-  
 
 -  <a  href="https://validator.w3.org/"  rel="noopener"  target="_blank">**HTML Validator**</a>
-
-  
-
 - The project used the **HTML Validator** to validate and find errors in the HTML.
 
-- The project used the **Autoprefixer CSS** to ensure CSS compatibility with all browsers.
-
-  
-
 -  <a  href="https://jigsaw.w3.org/css-validator/"  rel="noopener"  target="_blank">**CSS Validator**</a>
-
-  
-
 - The project used the **CSS Validator** to validate and find errors in the CSS.
 
-  
+ -  <a  href="https://balsamiq.com"  rel="noopener"  target="_blank">**Balsamiq**</a>
+- The project used the **Balsamiq** to generate wireframes for the site. 
 
 ## Testing
 
@@ -593,13 +553,10 @@ Currently there are no differences between the delayed branch and master branch.
   
 
 ### Code
-
-  
-
-- HTML Country List - https://gist.github.com/danrovito/977bcb97c9c2dfd3398a
-
-- Custom Checkboxes - https://css-tricks.com/custom-styling-form-inputs-with-modern-css-features/
+- HTML Country List (Used in the Newsletter Signup form)- https://gist.github.com/danrovito/977bcb97c9c2dfd3398a
+- Custom Checkboxes(Modified the code from here) - https://css-tricks.com/custom-styling-form-inputs-with-modern-css-features/
 - At least one checkbox required validdation. - [https://vyspiansky.github.io/2019/07/13/javascript-at-least-one-checkbox-must-be-selected/](https://vyspiansky.github.io/2019/07/13/javascript-at-least-one-checkbox-must-be-selected/)
+- PhotoSwipe Lightbox (Modified code from here) [https://photoswipe.com/documentation/getting-started.html](https://photoswipe.com/documentation/getting-started.html)
 
 
 ### Acknowledgements
