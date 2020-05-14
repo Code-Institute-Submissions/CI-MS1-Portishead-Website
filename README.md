@@ -1,7 +1,7 @@
 
 # [Portishead (Band) Website](https://kieran-murray-code.github.io/CI-MS1-Portishead-Website/)
 
-This is an assignemnt project for [https://codeinstitute.net/](https://codeinstitute.net/). The project aims to develop a modern mobile first website for long time fans as well new fans of the UK band Portishead. It helps them to find out information on the bands music and tour dates as well as the band's history and information on band members. See Portishead's offical website here -[Portishead's Official Webiste](https://www.portishead.co.uk/home/).
+This is an assignemnt project for [https://codeinstitute.net/](https://codeinstitute.net/). The project aims to develop a modern mobile first website for long time fans as well new fans of the UK band Portishead. It helps them to find out information on the bands music and tour dates as well as the band's history and information on band members. See Portishead's offical website here -[Portishead's Official Website](https://www.portishead.co.uk/home/).
 
 ## UX:
 
@@ -175,6 +175,7 @@ Each images contains a wireframe for the mobile and desktop versions of the site
 	- Try to submit with no country selected.
 	- Try to submit no checkbox option selected.
 	- All invalid options prevent the user from submiting the form and popup messages telling the user how complete the form sucessfully.
+	- If the form is sucessfully submitted the page will reload with the users information as part of the url.
 
 - The site fails to provide any news to a user that does not wish to sign up by email for a newsletter, the site needs a dedicated News page that will archive all news posts.
 
@@ -182,7 +183,7 @@ Each images contains a wireframe for the mobile and desktop versions of the site
 
 - The site fails to provide a page for merchandise, other than the call to action in the carousel on the home page to buy the latest album on an external site there is no way to buy merchandise from the band. The site needs a dedicated Store page.
 
-### HTML & CC Validation
+### HTML & CSS Validation
 
 #### HTML
 
@@ -196,6 +197,8 @@ The following error were found and fixed after running my **HTML** through [http
 
 - Attribute X not allowed on element Y at this point, such as an *alt* attribute on a *div*.
 
+These have all been fixed and no errors our found on validation.
+
 #### CSS
 
 The following errors were found when running were found when running my **CSS** through [https://jigsaw.w3.org/css-validator/validator](https://jigsaw.w3.org/css-validator/validator)
@@ -203,6 +206,9 @@ The following errors were found when running were found when running my **CSS** 
 - Parse Error on an -- variables that were used, this is a non issue as the validator just hasn't been updated to allow variables that are now fully accepted as CSS standard practice.
 
 - Unknown Vendor extension warnings, this is a non issue as these prefixes are required to improve browser compatibility.
+
+These errors have not been fixed as they are they are issue with the validator not being up tp date with current CSS spec.
+
 
 ### Browsers
 
@@ -240,7 +246,7 @@ The following browsers were tested for compatiblity
 
 9. In the Github pages section, tick Enforce HTTPS, this is required when you are using the default domain.
 
-10.After the [Settings](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/settings) refreshes the Github Pages section will contain a link to the live site. https://kieran-murray-code.github.io/CI-MS1-Portishead-Website/
+10. After the [Settings](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/settings) refreshes the Github Pages section will contain a link to the live site. https://kieran-murray-code.github.io/CI-MS1-Portishead-Website/
 
 Currently there are no differences between the delayed branch and master branch.
 
