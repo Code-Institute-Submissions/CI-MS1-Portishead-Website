@@ -178,7 +178,14 @@ live.
 - A Store page where users can buy merchandise from the band.
 
   
-
+### Wireframes
+Below are wireframe for the site developed in [https://balsamiq.com/](https://balsamiq.com/)
+ - [Home Page](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/blob/master/Wireframes/MS1%20Home%20Page.png)
+- [Musci Page](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/blob/master/Wireframes/MS1%20Music%20Page.png)
+- [Tour Page](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/blob/master/Wireframes/MS1%20Tour%20Page.png)
+- [Photos Page](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/blob/master/Wireframes/MS1%20Photos%20Page.png)
+- [About Page](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/blob/master/Wireframes/MS1%20About%20Page.png)
+- [News Page](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/blob/master/Wireframes/MS1%20News%20Page.png) (To Be Added)
   
 
 ## Technologies Used
