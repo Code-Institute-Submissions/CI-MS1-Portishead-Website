@@ -211,21 +211,21 @@ a.nav-link.active-page {
       color-stop(49%, rgba(49, 112, 136, 0.3)),
       to(rgba(49, 112, 136, 1))
     ),
-    url(..//media/images//Music/music-header.jpg);
+    url(..//media/images//music/music-header.jpg);
   background-image: -o-linear-gradient(
       top,
       rgb(0, 0, 0) 0%,
       rgba(49, 112, 136, 0.3) 49%,
       rgba(49, 112, 136, 1) 100%
     ),
-    url(..//media/images//Music/music-header.jpg);
+    url(..//media/images//music/music-header.jpg);
   background-image: linear-gradient(
       to bottom,
       rgb(0, 0, 0) 0%,
       rgba(49, 112, 136, 0.3) 49%,
       rgba(49, 112, 136, 1) 100%
     ),
-    url(..//media/images//Music/music-header.jpg);
+    url(..//media/images//music/music-header.jpg);
 }
 
 .header-image[data-page="photos"] {
@@ -401,21 +401,21 @@ a.nav-link.active-page {
       color-stop(49%, rgba(49, 112, 136, 0.3)),
       to(rgba(49, 112, 136, 1))
     ),
-    url(..//media/images/Music/music-footer.jpg);
+    url(..//media/images/music/music-footer.jpg);
   background-image: -o-linear-gradient(
       bottom,
       rgb(0, 0, 0) 0%,
       rgba(49, 112, 136, 0.3) 49%,
       rgba(49, 112, 136, 1) 100%
     ),
-    url(..//media/images/Music/music-footer.jpg);
+    url(..//media/images/music/music-footer.jpg);
   background-image: linear-gradient(
       to top,
       rgb(0, 0, 0) 0%,
       rgba(49, 112, 136, 0.3) 49%,
       rgba(49, 112, 136, 1) 100%
     ),
-    url(..//media/images/Music/music-footer.jpg);
+    url(..//media/images/music/music-footer.jpg);
 }
 
 .footer-image[data-page="photos"] {
@@ -607,7 +607,7 @@ a.nav-link.active-page {
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*------------------------------------------------------------------------MUSIC-PAGE------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------music-PAGE------------------------------------------------------------------------------------------------------------------------------------*/
 
 .music-releases {
   background-color: var(--color-portishead-third-01);
@@ -704,46 +704,46 @@ a.nav-link.active-page {
 
 /*----------ALBUM-ART---------------------------------------------*/
 .album-art[data-album="dummy"] {
-  background-image: url(..//media/images/Music/dummy.jpg);
+  background-image: url(..//media/images/music/dummy.jpg);
 }
 .album-art[data-album="self-titled"] {
-  background-image: url(..//media/images/Music/self-titled.jpg);
+  background-image: url(..//media/images/music/self-titled.jpg);
 }
 .album-art[data-album="third"] {
-  background-image: url(..//media/images/Music/third.jpg);
+  background-image: url(..//media/images/music/third.jpg);
 }
 .album-art[data-album="roseland"] {
-  background-image: url(..//media/images/Music/roseland.jpg);
+  background-image: url(..//media/images/music/roseland.jpg);
 }
 .album-art[data-album="chase-the-tear"] {
-  background-image: url(..//media/images/Music/chase-the-tear.jpg);
+  background-image: url(..//media/images/music/chase-the-tear.jpg);
 }
 .album-art[data-album="magic-doors"] {
-  background-image: url(..//media/images/Music/magic-doors.jpg);
+  background-image: url(..//media/images/music/magic-doors.jpg);
 }
 .album-art[data-album="the-rip"] {
-  background-image: url(..//media/images/Music/the-rip.jpg);
+  background-image: url(..//media/images/music/the-rip.jpg);
 }
 .album-art[data-album="machine-gun"] {
-  background-image: url(..//media/images/Music/machine-gun.jpg);
+  background-image: url(..//media/images/music/machine-gun.jpg);
 }
 .album-art[data-album="only-you"] {
-  background-image: url(..//media/images/Music/only-you.jpg);
+  background-image: url(..//media/images/music/only-you.jpg);
 }
 .album-art[data-album="over"] {
-  background-image: url(..//media/images/Music/over.jpg);
+  background-image: url(..//media/images/music/over.jpg);
 }
 .album-art[data-album="all-mine"] {
-  background-image: url(..//media/images/Music/all-mine.jpg);
+  background-image: url(..//media/images/music/all-mine.jpg);
 }
 .album-art[data-album="glory-box"] {
-  background-image: url(..//media/images/Music/glory-box.jpg);
+  background-image: url(..//media/images/music/glory-box.jpg);
 }
 .album-art[data-album="sour-times"] {
-  background-image: url(..//media/images/Music/sour-times.jpg);
+  background-image: url(..//media/images/music/sour-times.jpg);
 }
 .album-art[data-album="numb"] {
-  background-image: url(..//media/images/Music/numb.jpg);
+  background-image: url(..//media/images/music/numb.jpg);
 }
 /*------------------------------------------------------*/
 

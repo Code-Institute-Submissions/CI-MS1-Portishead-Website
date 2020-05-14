@@ -206,6 +206,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 initPhotoSwipeFromDOM('.my-gallery');
 
 
+
+// Validation for requiring at least one checkbox to be selected in the Newsletter.
 (function() {
     const form = document.querySelector('#sectionForm');
     const checkboxes = form.querySelectorAll('input[type=checkbox]');
