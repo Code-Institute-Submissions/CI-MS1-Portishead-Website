@@ -1,6 +1,6 @@
 # [Portishead (Band) Website](https://kieran-murray-code.github.io/CI-MS1-Portishead-Website/)
 
-This is a project website for the UK band Portishead. The project aims to develop a modern mobile first website for the band for long time fans as well new fans just discovering thier music to find out information on the bands music and tour dates and band memebers.
+This is a project website for the UK band Portishead. The project aims to develop a modern mobile first website for the band for long time fans as well new fans just discovering their music to find out information on the bands music and tour dates and band members.
 
 
 ## UX:
@@ -11,9 +11,9 @@ This is a project website for the UK band Portishead. The project aims to develo
  
  - 2. As a new fan of the band I want to find out all the music that the band has made and where to listen to or buy the music.
 
-- 3.  As fan of the band or a memeber of the press I want to see and download photos of the band.
+- 3.  As fan of the band or a member of the press I want to see and download photos of the band.
 
--  4. As a new fan I want to find out about the bands history and information on the band memebers.
+-  4. As a new fan I want to find out about the bands history and information on the band members.
 
 - 5.  As a fan I wish to find out news on the band, if they are working on new music, if a new tour is happening etc.
 
@@ -138,7 +138,16 @@ This is a project website for the UK band Portishead. The project aims to develo
 
 -  <a  href="https://autoprefixer.github.io/"  rel="noopener"  target="_blank">**Autoprefixer CSS**</a>
 
-	- The project used the **Autoprefixer CSS** to ensure CSS compatability with all browsers.
+	- The project used the **Autoprefixer CSS** to ensure CSS compatibility with all browsers.
+
+-  <a  href="https://validator.w3.org/"  rel="noopener"  target="_blank">**HTML Validator**</a>
+
+	- The project used the **HTML Validator** to validate and find errors in the HTML.
+	- The project used the **Autoprefixer CSS** to ensure CSS compatibility with all browsers.
+
+-  <a  href="https://jigsaw.w3.org/css-validator/"  rel="noopener"  target="_blank">**CSS Validator**</a>
+
+	- The project used the **CSS Validator** to validate and find errors in the  CSS.
 
 ## Testing
 ### Testing User Stories
@@ -150,7 +159,7 @@ This is a project website for the UK band Portishead. The project aims to develo
 
  - The next 2 upcoming  tour dates on the home page with a call to action button to see all tour dates this will link them to the **Tour** page. The user can also interact with the **Tour Date Cards** to get an overlay with the venue name and links to **RSVP** or **Buy Tickets**.	
 
-- The **Tour** page provides the user with **Tour Date Cards** for all the bands upcoming shows, the **Tour Date Cards**  have the city, country and dates visable and then on hover the reveal the venue with a link to it as well as links to to **RSVP** or **Buy Tickets**.
+- The **Tour** page provides the user with **Tour Date Cards** for all the bands upcoming shows, the **Tour Date Cards**  have the city, country and dates visible and then on hover the reveal the venue with a link to it as well as links to to **RSVP** or **Buy Tickets**.
 
 #### 2. As a new fan of the band I want to find out all the music that the band has made and where to listen to or buy the music.
 - The **Carousel** header on the home page has a slide that informs the
@@ -160,50 +169,75 @@ This is a project website for the UK band Portishead. The project aims to develo
 	   
 - The **Music** page has a grid of all the albums and singles the band has released, The music releases have a hover effect that reveals the album name, release year and **Spotify** link to listen to it.
 
-####  3. As fan of the band or a memeber of the press I want to see and download photos of the band.
-- The **Photos** page has gallery of images from the band that can be viewed fullscreen in a **Lightbox**,  the **Lightbox** allows the users to share the image on **Facebook**, **Twitter**, **Pinterest** or **Download** the image directly to thier device.
+####  3. As a fan of the band or a member of the press I want to see and download photos of the band.
+- The **Photos** page has gallery of images from the band that can be viewed fullscreen in a **Lightbox**,  the **Lightbox** allows the users to share the image on **Facebook**, **Twitter**, **Pinterest** or **Download** the image directly to their device.
 
-#### 4. As a new fan I want to find out about the bands history and information on the band memebers.
-- The **About** page has a biography summary of the bands history.
+#### 4. As a new fan I want to find out about the bands history and information on the band members.
+- The **About** the page has a biography summary of the bands history.
 
-- The **About** page has band memeber profiles that are presented as profile images of each member with thier name over it, when hovered over more information on what instrument they play and other projects that they are involved with are revealed on an overlay.
+- The **About**  page has band member profiles that are presented as profile images of each member with their name over it, when hovered over more information on what instrument they play and other projects that they are involved with are revealed on an overlay.
 
 #### 5.  As a fan I wish to find out news on the band, if they are working on new music, if a new tour is happening etc.
-- The **Home** page has a **Newsletter Sign Up** form which allows the user to input an **email** and select thier **country** in order to recieve relevant information in a **newsletter** sent directly to thier **email**
+- The **Home** page has a **Newsletter Sign Up** form which allows the user to input an **email** and select their **country** in order to receive relevant information in a **newsletter** sent directly to their **email**
 
-- The site fails to provide any news to a user that doesnt wish to sign up by email for a newsletter, the site needs a dedicated **News** page that will archive all news posts.
+- The site fails to provide any news to a user that does not wish to sign up by email for a newsletter, the site needs a dedicated **News** page that will archive all news posts.
 
 #### 6.  As a fan I wish to purchase **merchandise** from the band such as t-shirts, posters and music releases.
-- The site fails to provide a page for **merchandise**, other than the call to action in the carorusel on the home page to buy the latest album on an exteral site there is no way to buy **merchandise** from the band. The site needs a dedicated **Store** page.
+ - The site fails to provide a page for **merchandise**, other than the call to action in the carousel on the home page to buy the latest album on an external site there is no way to buy **merchandise** from the band. The site needs a dedicated **Store** page.
 
+ ### HTML & CC Validation
+ #### HTML
+ The following error were found and fixed after running my **HTML** through [https://validator.w3.org/](https://validator.w3.org/)
+ 
+ - Empty id and href attributes were found.
+ - *div* and *span* were used as child elements of *ul*, only *li* can be the direct child of *ul*.
+ - Duplicate attributes were used.
+ - Attribute X not allowed on element Y at this point,  such as an *alt* attribute on a *div*.
+#### CSS
+The following errors were found when running were found when running my **CSS** through [https://jigsaw.w3.org/css-validator/validator](https://jigsaw.w3.org/css-validator/validator)
+
+ - Parse Error on an -- variables that were used, this is a non issue as the validator just hasn't been updated to allow variables that are now fully accepted as CSS standard practice.
+ - Unknown Vendor extension warnings, this is a non issue as these prefixes are required to improve browser compatibility.
+
+### Devices
+The following devices were used to test the site for responsiveness of the site.
+
+ - Xiaomi Mi Mix 2s (Android) in Google Chrome browser.
+ - Honor 20 (Android) in Google Chrome browser.
+ - Windows 10 Laptop
+	 - Google Chrome
+	 - Firefox
+	 - Opera
+	 - Microsoft Edge
+	 -  Internet Explorer 11
+####  Issues Found
+ - All gradients and filter effects not working on Internet Explorer 11.
+ - 
 
 ## Deployment
  #### To deploy a live version of this site using Github the following steps are needed..
 1. Log into Github.
 2. User Dropdown > Your Repositories.
-3. Select the respository for this project  [CI-MS1-Portishead-Website](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website)
+3. Select the repository for this project  [CI-MS1-Portishead-Website](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website)
 4. From the repository top menu select [Settings](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/settings), which is the last option in the right.
 5. In [Settings](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/settings) scroll down to the Github pages section.
-6. In the Githib pages section, for Source select master branch.
-7. In the Githib pages section, for Theme leave blank.
-8. In the Githib pages section, for Custom Domain leave blank.
-9. In the Githib pages section,  tick Enforce HTTPS, this is required when you are using the default domain.
+6. In the Github pages section, for Source select master branch.
+7. In the Github pages section, for Theme leave blank.
+8. In the Github pages section, for Custom Domain leave blank.
+9. In the Github pages section,  tick Enforce HTTPS, this is required when you are using the default domain.
 10.After the [Settings](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website/settings) refreshes the Github Pages section will contain a link to the live site. https://kieran-murray-code.github.io/CI-MS1-Portishead-Website/
 
-Currently there are no differences between the deplayed branch and master branch.
+Currently there are no differences between the delayed branch and master branch.
 #### To deploy a local version the following steps are required.
-<<<<<<< HEAD
 
-=======
->>>>>>> 70a688b44573cb90f8e56db9051f278bc28ceed2
-1. Git can clone a repsoitory using $ git clone https://github.com/User/Repository-To-Clone
+1. Git can clone a repository using $ git clone https://github.com/User/Repository-To-Clone
 2. Use the above command in Git Bash in your IDE such as Visual Studio Code
 3. To get the url for cloning this repository go to [CI-MS1-Portishead-Website](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website)
 4. Click on the Clone or Download button.
-5. Copy the link from Clone with HTTPS section.
+5. Copy the link from Clone with the HTTPS section.
 6. Use the command in step 1 in Git Bash, add the correct url and hit enter.
 7. You now have a local copy of the repository.
-8. More information on cloning a Git Repsoitory can be found [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+8. More information on cloning a Git Repository can be found [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 
 ## Credits
@@ -285,4 +319,5 @@ Currently there are no differences between the deplayed branch and master branch
  
  
 ## Disclaimer
-This website was created for a milestone project for The Code Institue Full Stack Software Development Diploma. The content of this Website is for educational purposes only.
+This website was created for a milestone project for The Code Institute Full Stack Software Development Diploma. The content of this Website is for educational purposes only.
+

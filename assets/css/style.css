@@ -347,7 +347,6 @@ a.nav-link.active-page {
 
 .legal-item a:hover {
   color: var(--color-portishead-third-03);
-  font-size: 0.9rem;
 }
 .copyright {
   margin: 0;
