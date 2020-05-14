@@ -192,7 +192,8 @@ This is a project website for the UK band Portishead. The project aims to develo
 
 Currently there are no differences between the deplayed branch and master branch.
 #### To deploy a local version the following steps are required.
-1.Git can clone a repsoitory using $ git clone https://github.com/User/Repository-To-Clone
+
+1. Git can clone a repsoitory using $ git clone https://github.com/User/Repository-To-Clone
 2. Use the above command in Git Bash in your IDE such as Visual Studio Code
 3. To get the url for cloning this repository go to [CI-MS1-Portishead-Website](https://github.com/Kieran-Murray-Code/CI-MS1-Portishead-Website)
 4. Click on the Clone or Download button.

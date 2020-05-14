@@ -73,6 +73,7 @@ body {
 }
 
 .hamburger-button-bar {
+  display: block;
   background-color: var(--color-portishead-third-02);
   width: 70%;
   height: 0.2rem;
@@ -350,6 +351,7 @@ a.nav-link.active-page {
 }
 .copyright {
   margin: 0;
+  font-size: 0;
 }
 
 /*-----------------------------FOOTER_IMAGE---------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -451,21 +453,21 @@ a.nav-link.active-page {
       color-stop(49%, rgba(49, 112, 136, 0.3)),
       to(rgba(49, 112, 136, 1))
     ),
-    url(..//media/images/about/about-footer.png);
+    url(..//media/images/about/about-footer.jpg);
   background-image: -o-linear-gradient(
       bottom,
       rgb(0, 0, 0) 0%,
       rgba(49, 112, 136, 0.3) 49%,
       rgba(49, 112, 136, 1) 100%
     ),
-    url(..//media/images/about/about-footer.png);
+    url(..//media/images/about/about-footer.jpg);
   background-image: linear-gradient(
       to top,
       rgb(0, 0, 0) 0%,
       rgba(49, 112, 136, 0.3) 49%,
       rgba(49, 112, 136, 1) 100%
     ),
-    url(..//media/images/about/about-footer.png);
+    url(..//media/images/about/about-footer.jpg);
   background-position-y: 25%;
 }
 
@@ -478,7 +480,7 @@ a.nav-link.active-page {
 .bio {
   background-color: rgba(0, 0, 0, 0.2);
   color: var(--color-portishead-third-02);
-  text-align: justify;
+  text-align: left;
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
@@ -591,15 +593,15 @@ a.nav-link.active-page {
 }
 
 .profile-img.beth {
-  background-image: url(..//media/images/beth.jpg);
+  background-image: url(..//media/images/about/beth.jpg);
 }
 
 .profile-img.geoff {
-  background-image: url(..//media/images/geoff.jpg);
+  background-image: url(..//media/images/about/geoff.jpg);
 }
 
 .profile-img.adrain {
-  background-image: url(..//media/images/adrian.jpg);
+  background-image: url(..//media/images/about/adrian.jpg);
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
@@ -703,7 +705,7 @@ a.nav-link.active-page {
 
 /*----------ALBUM-ART---------------------------------------------*/
 .album-art[data-album="dummy"] {
-  background-image: url(..//media/images/Music/dummy.png);
+  background-image: url(..//media/images/Music/dummy.jpg);
 }
 .album-art[data-album="self-titled"] {
   background-image: url(..//media/images/Music/self-titled.jpg);
@@ -721,7 +723,7 @@ a.nav-link.active-page {
   background-image: url(..//media/images/Music/magic-doors.jpg);
 }
 .album-art[data-album="the-rip"] {
-  background-image: url(..//media/images/Music/the-rip.png);
+  background-image: url(..//media/images/Music/the-rip.jpg);
 }
 .album-art[data-album="machine-gun"] {
   background-image: url(..//media/images/Music/machine-gun.jpg);
@@ -951,6 +953,7 @@ a.nav-link.active-page {
 .my-gallery {
   width: 100%;
   margin-top: 100px;
+  margin-bottom: 5vh;
 }
 
 .my-gallery figure {
